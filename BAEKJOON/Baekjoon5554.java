@@ -7,10 +7,10 @@ import java.io.InputStreamReader;
 public class Baekjoon5554 {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int input = 0;
         for (int i = 0; i < 4; i++) {
-            input += Integer.parseInt(bf.readLine());
+            input += Integer.parseInt(br.readLine());
         }
         System.out.println(input / 60);
         System.out.println(input % 60);

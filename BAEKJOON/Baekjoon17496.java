@@ -7,8 +7,8 @@ import java.io.InputStreamReader;
 public class Baekjoon17496 {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader bf = new BufferedReader(new InputStreamReader((System.in)));
-        String[] input = bf.readLine().split(" ");
+        BufferedReader br = new BufferedReader(new InputStreamReader((System.in)));
+        String[] input = br.readLine().split(" ");
 
         int N = Integer.parseInt(input[0]); // 여름의 일 수
         int T = Integer.parseInt(input[1]); // 스타후르츠가 자라는데 걸리는 일 수

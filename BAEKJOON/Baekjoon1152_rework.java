@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class Baekjoon1152_rework {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println(bf.readLine().trim().split(" ").length);
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println(br.readLine().trim().split(" ").length);
     }
 }

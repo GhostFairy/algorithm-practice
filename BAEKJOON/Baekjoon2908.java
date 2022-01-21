@@ -7,8 +7,8 @@ import java.io.InputStreamReader;
 public class Baekjoon2908 {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        String[] input = bf.readLine().split(" ");
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String[] input = br.readLine().split(" ");
         int[] output = new int[input.length];
 
         for (int i = 0; i < input.length; i++) {
