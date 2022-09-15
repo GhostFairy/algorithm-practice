@@ -1,9 +1,14 @@
 // 10809. 알파벳 찾기
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class Baekjoon10809 {
 
-    public static void main(String[] args) {
-        String word = "baekjoon";
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String word = br.readLine();
 
         for (char i = 'a'; i <= 'z'; i++) {
             int index = -1;
