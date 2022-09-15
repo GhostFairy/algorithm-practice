@@ -1,15 +1,18 @@
 // 8958. OX퀴즈
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class Baekjoon8958 {
 
-    public static void main(String[] args) {
-        int N = 5;
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int N = Integer.parseInt(br.readLine());
         String[] arr = new String[N];
-        arr[0] = "OOXXOXXOOO";
-        arr[1] = "OOXXOOXXOO";
-        arr[2] = "OXOXOXOXOXOXOX";
-        arr[3] = "OOOOOOOOOO";
-        arr[4] = "OOOOXOOOOXOOOOX";
+        for(int i = 0; i < arr.length; i++) {
+            arr[i] = br.readLine();
+        }
 
         for (int i = 0; i < N; i++) {
             int sum = 0;
