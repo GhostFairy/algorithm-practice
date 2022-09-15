@@ -1,9 +1,8 @@
-// 5554. 심부름 가는 길
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// 5554. 심부름 가는 길
 public class Baekjoon5554 {
 
     public static void main(String[] args) throws IOException {

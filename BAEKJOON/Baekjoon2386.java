@@ -1,9 +1,8 @@
-// 2386. 도비의 영어 공부
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// 2386. 도비의 영어 공부
 public class Baekjoon2386 {
 
     public static void main(String[] args) throws IOException {

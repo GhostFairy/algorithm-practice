@@ -1,17 +1,24 @@
+package level7;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// 15964. 이상한 기호
-public class Baekjoon15964 {
+// 2869. 달팽이는 올라가고 싶다
+public class Baekjoon2869 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] input = br.readLine().split(" ");
         int A = Integer.parseInt(input[0]);
         int B = Integer.parseInt(input[1]);
+        int V = Integer.parseInt(input[2]);
 
-        System.out.println((long) (A + B) * (A - B));
+        // V <= count * A - (count - 1) * B
+        // V - B <= count(A - B)
+        // (V - B) / (A - B) <= count
+
+        System.out.println((int) Math.ceil((double) (V - B) / (A - B)));
     }
 
 }

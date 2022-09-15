@@ -1,9 +1,8 @@
-// 2920. 음계
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// 2920. 음계
 public class Baekjoon2920 {
 
     public static void main(String[] args) throws IOException {

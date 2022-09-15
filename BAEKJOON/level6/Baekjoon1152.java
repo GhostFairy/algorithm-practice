@@ -1,17 +1,22 @@
+package level6;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// 2954. 창영이의 일기장
-public class Baekjoon2954 {
+// 1152. 단어의 개수
+public class Baekjoon1152 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] input = br.readLine().split(" ");
-        for(int i = 0; i < input.length; i++) {
-            input[i] = input[i].replaceAll("([aeiou])p\\1", "$1");
-            System.out.println(input[i]);
-        }
-    }
+        int count = 0;
 
+        for (String str : input) {
+            if (str.length() > 0) {
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
 }

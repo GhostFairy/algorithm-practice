@@ -1,9 +1,8 @@
-// 2953. 나는 요리사다
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// 2953. 나는 요리사다
 public class Baekjoon2953 {
 
     public static void main(String[] args) throws IOException {
