@@ -10,9 +10,10 @@ public class Baekjoon10818 {
         int min = 1000001;
 
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] > max) {
+            if (arr[i] >= max) {
                 max = arr[i];
-            } else if (arr[i] < min) {
+            }
+            if (arr[i] <= min) {
                 min = arr[i];
             }
         }
