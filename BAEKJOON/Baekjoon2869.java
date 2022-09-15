@@ -17,7 +17,7 @@ public class Baekjoon2869 {
         // V - B <= count(A - B)
         // (V - B) / (A - B) <= count
 
-        System.out.println((V - B) / (A - B));
+        System.out.println((int) Math.ceil((double) (V - B) / (A - B)));
     }
 
 }
