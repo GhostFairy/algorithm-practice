@@ -1,12 +1,16 @@
 // 2884. 알람 시계
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class Baekjoon2884 {
 
-    public static void main(String[] args) {
-        // 0 <= H <= 23, 0 <= M <= 59
-        int H = (int) (Math.random() * 24);
-        int M = (int) (Math.random() * 60);
-        System.out.println(H + " " + M);
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String[] input = br.readLine().split(" ");
+        int H = Integer.parseInt(input[0]);
+        int M = Integer.parseInt(input[1]);
 
         // M을 45분 전으로 설정
         M -= 45;
