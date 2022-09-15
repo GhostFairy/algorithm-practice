@@ -8,6 +8,14 @@ public class Baekjoon1152_rework {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println(br.readLine().trim().split(" ").length);
+        int count = 0;
+        String[] words = br.readLine().trim().split(" ");
+
+        for(int i = 0; i < words.length; i++) {
+            if (words[i].length() > 0) {
+                count++;
+            }
+        }
+        System.out.println(count);
     }
 }
